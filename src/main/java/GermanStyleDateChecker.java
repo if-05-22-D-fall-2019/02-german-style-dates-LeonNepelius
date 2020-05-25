@@ -3,6 +3,7 @@ import java.util.regex.Pattern;
 
 public class GermanStyleDateChecker {
     public static Matcher getMatcher(String dateString) {
-        return null;
+        Pattern pattern = Pattern.compile(""); //TODO Regex
+        return pattern.matcher(dateString);
     }
 }
